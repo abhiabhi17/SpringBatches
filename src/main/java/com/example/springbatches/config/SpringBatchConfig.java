@@ -91,6 +91,7 @@ public class SpringBatchConfig {
     @Bean
      public Step step1()
      {
+         // step name is csv-step
          return stepBuilderFactory.get("csv-step").<Customer,Customer>chunk(10)
                  .reader(reader())
                  .processor(processor())
