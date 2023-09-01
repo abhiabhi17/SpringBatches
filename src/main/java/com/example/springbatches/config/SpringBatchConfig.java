@@ -102,7 +102,7 @@ public class SpringBatchConfig {
      @Bean
      public Job runJob()
      {
-         return jobBuilderFactory.get("importCustomers")
+         return jobBuilderFactory.get("importCustomers")//Job name is import customers
                  .flow(step1()).end().build(); //step 1 gives to job
      }
 
