@@ -99,7 +99,7 @@ public class SpringBatchConfig {
                  .build();
      }
 
-     //Then run the job with Job Object
+     //Job is an Interface we have to give step to job
      @Bean
      public Job runJob()
      {
