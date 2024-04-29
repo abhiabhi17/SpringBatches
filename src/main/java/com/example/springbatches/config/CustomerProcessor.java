@@ -5,7 +5,7 @@ import org.springframework.batch.item.ItemProcessor;
 
 
 // Reade the input oBject as Customer
-// Wtrite the object as customer (Inbound and outbound)
+// Wtrite the object as customer (Inbound and outbound))
 public class CustomerProcessor implements ItemProcessor<Customer,Customer> {
 
     @Override
