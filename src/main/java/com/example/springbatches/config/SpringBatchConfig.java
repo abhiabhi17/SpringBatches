@@ -34,7 +34,7 @@ public class SpringBatchConfig {
     private StepBuilderFactory stepBuilderFactory; //To Create Step
     private CustomerRepository customerRepository; // To save the data inject
 
-    // FlatFileItemReader reades the file from csv Which is customer type
+    // FlatFileItemReader reades the file from csv Which is customer type.
 
     @Bean // Manullay user has to create a bean object when the class is @confirguration
      public FlatFileItemReader<Customer>  reader()
