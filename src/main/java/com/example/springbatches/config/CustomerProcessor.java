@@ -8,14 +8,6 @@ import org.springframework.batch.item.ItemProcessor;
 // Wtrite the object as customer (Inbound and outbound))
 public class CustomerProcessor implements ItemProcessor<Customer,Customer> {
 
-
-    //this is from uat
-
-
-    //this is from master
-   //this is from dev
-
-
     @Override
     public Customer process(Customer customer) throws Exception {
 //        if(customer.getCountry().equals("United States")) {
