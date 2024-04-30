@@ -8,7 +8,16 @@ import org.springframework.batch.item.ItemProcessor;
 // Wtrite the object as customer (Inbound and outbound))
 public class CustomerProcessor implements ItemProcessor<Customer,Customer> {
 
+
   //this message from dev environments
+
+
+
+//this is from master
+  //this message from dev
+
+   // this is from qat
+  // this is from uat
 
     @Override
     public Customer process(Customer customer) throws Exception {
