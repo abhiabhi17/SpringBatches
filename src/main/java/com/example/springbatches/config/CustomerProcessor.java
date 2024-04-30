@@ -11,7 +11,7 @@ public class CustomerProcessor implements ItemProcessor<Customer,Customer> {
 
     //qa enviroment
 
-    //dev environment
+    //dev environments
 
 
     //uat enviroment
