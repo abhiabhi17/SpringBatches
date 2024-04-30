@@ -8,7 +8,7 @@ import org.springframework.batch.item.ItemProcessor;
 // Wtrite the object as customer (Inbound and outbound))
 public class CustomerProcessor implements ItemProcessor<Customer,Customer> {
 
-  // this message from dev
+  //this message from dev
     @Override
     public Customer process(Customer customer) throws Exception {
 //        if(customer.getCountry().equals("United States")) {
