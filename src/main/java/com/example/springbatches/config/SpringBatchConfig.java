@@ -23,6 +23,7 @@ import org.springframework.core.task.TaskExecutor;
 @Configuration
 @EnableBatchProcessing
 @AllArgsConstructor
+//spring batch config classs
 public class SpringBatchConfig {
 /*
    Jobs Have ----->Steps--->ItemReader ,ItemProcessor,ItemWriter
